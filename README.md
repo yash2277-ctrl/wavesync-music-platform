@@ -276,3 +276,4 @@ MIT
 - [2026-04-10 02:27:44] Add comments
 - [2026-06-19 02:27:44] Improve logging
 - [2026-05-28 02:27:44] Add new features
+- [2025-08-15 02:27:44] Add validation
