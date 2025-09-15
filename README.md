@@ -218,3 +218,4 @@ MIT
 - [2025-08-10 02:27:44] Update README
 - [2025-09-17 02:27:44] Improve accessibility
 - [2025-10-30 02:27:44] Improve UI/UX
+- [2025-09-16 02:27:44] Improve logging
