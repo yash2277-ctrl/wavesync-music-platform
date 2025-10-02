@@ -129,3 +129,8 @@ MIT
 - **2026-07-22**: Improve UI/UX
 
 - **2026-07-29**: Fix bugs
+
+
+## Commit Log
+
+- [2025-10-03 02:27:44] Add validation
