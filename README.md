@@ -198,3 +198,4 @@ MIT
 - [2025-08-07 02:27:44] Improve performance
 - [2026-06-13 02:27:44] Update README
 - [2026-04-17 02:27:44] Add validation
+- [2025-11-25 02:27:44] Add API endpoints
