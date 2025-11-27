@@ -263,3 +263,4 @@ MIT
 - [2026-03-21 02:27:44] Add unit tests
 - [2025-10-07 02:27:44] Improve UI/UX
 - [2025-09-13 02:27:44] Improve performance
+- [2025-11-28 02:27:44] Update README
