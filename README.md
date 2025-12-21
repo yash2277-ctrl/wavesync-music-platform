@@ -171,3 +171,4 @@ MIT
 - [2025-12-24 02:27:44] Improve UI/UX
 - [2026-01-29 02:27:44] Update dependencies
 - [2025-10-21 02:27:44] Add unit tests
+- [2025-12-22 02:27:44] Update documentation
