@@ -267,3 +267,4 @@ MIT
 - [2026-01-10 02:27:44] Improve performance
 - [2025-08-18 02:27:44] Improve UI/UX
 - [2025-12-09 02:27:44] Fix typos
+- [2026-03-18 02:27:44] Update documentation
