@@ -225,3 +225,4 @@ MIT
 - [2026-05-07 02:27:44] Improve error handling
 - [2026-06-26 02:27:44] Update dependencies
 - [2026-03-13 02:27:44] Optimize queries
+- [2026-04-10 02:27:44] Add unit tests
