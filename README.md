@@ -107,3 +107,5 @@ MIT
 - **2026-08-05**: fix: Improve error messages
 
 - **2026-05-11**: Improve UI/UX
+
+- **2026-05-14**: Update dependencies
