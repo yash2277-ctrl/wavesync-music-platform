@@ -109,3 +109,5 @@ MIT
 - **2026-05-11**: Improve UI/UX
 
 - **2026-05-14**: Update dependencies
+
+- **2026-05-16**: Refactor code
