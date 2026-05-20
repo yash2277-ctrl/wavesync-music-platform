@@ -111,3 +111,5 @@ MIT
 - **2026-05-14**: Update dependencies
 
 - **2026-05-16**: Refactor code
+
+- **2026-05-21**: Fix bugs
