@@ -244,3 +244,4 @@ MIT
 - [2026-07-29 02:27:44] Add new features
 - [2025-10-22 02:27:44] Update documentation
 - [2026-06-06 02:27:44] Improve logging
+- [2026-06-08 02:27:44] Improve error handling
