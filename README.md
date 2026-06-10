@@ -115,3 +115,5 @@ MIT
 - **2026-05-21**: Fix bugs
 
 - **2026-05-26**: Update README
+
+- **2026-06-11**: Update documentation
