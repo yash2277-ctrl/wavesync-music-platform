@@ -121,3 +121,5 @@ MIT
 - **2026-06-20**: Add tests
 
 - **2026-06-27**: Add tests
+
+- **2026-06-30**: Add new features
