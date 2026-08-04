@@ -1,0 +1,96 @@
+# WaveSync - Music Streaming Platform
+
+A full-featured music streaming platform with Spotify integration and social features.
+
+## Features
+
+- Music streaming and playback
+- Spotify API integration
+- User authentication
+- Playlist management
+- Search functionality
+- Music recommendations
+- Social features (follow, share)
+- Real-time playback control
+- Queue management
+- Favorite tracks and albums
+
+## Tech Stack
+
+- **Frontend**: React, HTML, CSS, JavaScript
+- **Backend**: Node.js, Express
+- **Database**: MongoDB/SQLite
+- **APIs**: Spotify Web API
+- **Authentication**: JWT, OAuth 2.0
+
+## Project Structure
+
+- `wavesync-nodejs/` - Main application backend
+- `music-stream-node/` - Streaming service
+- `ocean-wave-login-main/` - Authentication module
+
+## Installation
+
+1. Clone the repository
+2. Navigate to the wavesync-nodejs directory
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Set up environment variables
+5. Run the application:
+   ```bash
+   npm start
+   ```
+
+## Environment Variables
+
+Create a `.env` file:
+
+```
+SPOTIFY_CLIENT_ID=your_client_id
+SPOTIFY_CLIENT_SECRET=your_client_secret
+SPOTIFY_REDIRECT_URI=http://localhost:3000/callback
+DB_CONNECTION_STRING=your_db_connection
+JWT_SECRET=your_jwt_secret
+PORT=3000
+```
+
+## Features
+
+### Music Player
+- Play, pause, skip controls
+- Volume control
+- Progress bar with seek functionality
+- Shuffle and repeat modes
+
+### Playlists
+- Create and manage playlists
+- Add/remove songs
+- Collaborative playlists
+- Public and private playlists
+
+### Discovery
+- Browse new releases
+- Top charts
+- Personalized recommendations
+- Genre-based browsing
+
+### Social
+- Follow other users
+- Share playlists
+- Activity feed
+- Comments and likes
+
+## API Integration
+
+The platform integrates with Spotify Web API for:
+- Track search and metadata
+- Artist information
+- Album details
+- User library sync
+- Playback control
+
+## License
+
+MIT
