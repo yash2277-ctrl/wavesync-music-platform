@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Design system ──────────────────────────────────────────────────────────
+   Premium dark theme — Suno-violet × Spotify-green, all HSL.
+*/
+@layer base {
+  :root, :root[data-theme='aurora'] {
+    --background: 240 30% 6%;
+    --foreground: 270 20% 97%;
+    --card: 245 28% 10%;
+    --card-foreground: 270 20% 97%;
+    --card-hover: 245 26% 14%;
+    --popover: 245 30% 9%;
+    --popover-foreground: 270 20% 97%;
+    --primary: 270 90% 65%;
+    --primary-foreground: 240 30% 6%;
+    --secondary: 245 25% 16%;
+    --secondary-foreground: 270 20% 97%;
+    --muted: 245 20% 20%;
+    --muted-foreground: 260 15% 65%;
+    --accent: 150 80% 55%;
+    --accent-foreground: 240 30% 6%;
+    --destructive: 0 72% 55%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 245 22% 18%;
+    --input: 245 22% 16%;
+    --ring: 270 90% 65%;
+    --radius: 0.85rem;
+    --grad-from: 270 90% 60%;
+    --grad-to: 320 85% 60%;
+    --sidebar-background: 245 32% 7%;
+    --sidebar-foreground: 260 15% 78%;
+    --sidebar-primary: 270 90% 65%;
+    --sidebar-primary-foreground: 240 30% 6%;
+    --sidebar-accent: 245 26% 13%;
+    --sidebar-accent-foreground: 270 20% 97%;
+    --sidebar-border: 245 22% 15%;
+    --sidebar-ring: 270 90% 65%;
+  }
+
+  /* Spotify-style green/dark */
+  :root[data-theme='emerald'] {
+    --background: 160 20% 6%;
+    --foreground: 150 15% 96%;
+    --card: 160 18% 10%;
+    --card-foreground: 150 15% 96%;
+    --card-hover: 160 16% 14%;
+    --popover: 160 20% 9%;
+    --popover-foreground: 150 15% 96%;
+    --primary: 145 70% 50%;
+    --primary-foreground: 160 30% 6%;
+    --secondary: 160 16% 16%;
+    --secondary-foreground: 150 15% 96%;
+    --muted: 160 14% 20%;
+    --muted-foreground: 150 10% 65%;
+    --accent: 145 80% 45%;
+    --accent-foreground: 0 0% 100%;
+    --border: 160 16% 18%;
+    --input: 160 16% 16%;
+    --ring: 145 70% 50%;
+    --grad-from: 145 70% 45%;
+    --grad-to: 170 75% 50%;
+    --sidebar-background: 160 22% 5%;
+    --sidebar-foreground: 150 12% 78%;
+    --sidebar-primary: 145 70% 50%;
+    --sidebar-primary-foreground: 160 30% 6%;
+    --sidebar-accent: 160 16% 12%;
+    --sidebar-accent-foreground: 150 15% 96%;
+    --sidebar-border: 160 16% 14%;
+    --sidebar-ring: 145 70% 50%;
+  }
+
+  /* Sunset orange/pink */
+  :root[data-theme='sunset'] {
+    --background: 250 30% 7%;
+    --foreground: 30 60% 97%;
+    --card: 250 26% 11%;
+    --card-foreground: 30 60% 97%;
+    --card-hover: 250 24% 15%;
+    --popover: 250 28% 10%;
+    --popover-foreground: 30 60% 97%;
+    --primary: 25 95% 58%;
+    --primary-foreground: 250 30% 7%;
+    --secondary: 250 22% 17%;
+    --secondary-foreground: 30 60% 97%;
+    --muted: 250 18% 21%;
+    --muted-foreground: 30 25% 70%;
+    --accent: 340 85% 62%;
+    --accent-foreground: 0 0% 100%;
+    --border: 250 20% 19%;
+    --input: 250 20% 17%;
+    --ring: 25 95% 58%;
+    --grad-from: 25 95% 55%;
+    --grad-to: 340 85% 60%;
+    --sidebar-background: 250 32% 6%;
+    --sidebar-foreground: 30 30% 78%;
+    --sidebar-primary: 25 95% 58%;
+    --sidebar-primary-foreground: 250 30% 7%;
+    --sidebar-accent: 250 24% 12%;
+    --sidebar-accent-foreground: 30 60% 97%;
+    --sidebar-border: 250 20% 15%;
+    --sidebar-ring: 25 95% 58%;
+  }
+
+  /* Ocean cyan/blue (legacy) */
+  :root[data-theme='ocean'] {
+    --background: 210 35% 7%;
+    --foreground: 190 20% 96%;
+    --card: 210 30% 11%;
+    --card-foreground: 190 20% 96%;
+    --card-hover: 210 28% 15%;
+    --popover: 210 30% 10%;
+    --popover-foreground: 190 20% 96%;
+    --primary: 190 85% 55%;
+    --primary-foreground: 210 35% 7%;
+    --secondary: 205 26% 17%;
+    --secondary-foreground: 190 20% 96%;
+    --muted: 210 20% 22%;
+    --muted-foreground: 190 15% 65%;
+    --accent: 165 75% 50%;
+    --accent-foreground: 210 35% 7%;
+    --border: 210 20% 19%;
+    --input: 210 20% 17%;
+    --ring: 190 85% 55%;
+    --grad-from: 190 85% 50%;
+    --grad-to: 165 75% 50%;
+    --sidebar-background: 215 35% 6%;
+    --sidebar-foreground: 190 15% 78%;
+    --sidebar-primary: 190 85% 55%;
+    --sidebar-primary-foreground: 210 35% 7%;
+    --sidebar-accent: 210 28% 13%;
+    --sidebar-accent-foreground: 190 20% 96%;
+    --sidebar-border: 210 20% 15%;
+    --sidebar-ring: 190 85% 55%;
+  }
+}
+
+@layer base {
+  * { @apply border-border; }
+  html, body, #root { height: 100%; width: 100%; }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Manrope', system-ui, sans-serif;
+    overflow: hidden;
+  }
+  h1, h2, h3, h4 { font-family: 'Space Grotesk', 'Manrope', sans-serif; letter-spacing: -0.02em; }
+
+  /* Custom thin scrollbar */
+  *::-webkit-scrollbar { width: 8px; height: 8px; }
+  *::-webkit-scrollbar-track { background: transparent; }
+  *::-webkit-scrollbar-thumb { background: hsl(var(--muted)); border-radius: 999px; }
+  *::-webkit-scrollbar-thumb:hover { background: hsl(var(--muted-foreground) / 0.5); }
+}
+
+@layer utilities {
+  .text-gradient {
+    background: linear-gradient(135deg, hsl(var(--grad-from)), hsl(var(--grad-to)));
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  .bg-grad { background: linear-gradient(135deg, hsl(var(--grad-from)), hsl(var(--grad-to))); }
+  .bg-grad-hover:hover { filter: brightness(1.1); }
+  .glass { background: hsl(var(--card) / 0.7); backdrop-filter: blur(16px); }
+  .glow { box-shadow: 0 0 40px hsl(var(--primary) / 0.35); }
+  .animate-fade-up { animation: fadeUp 0.5s ease-out forwards; }
+  .animate-float { animation: float 6s ease-in-out infinite; }
+  .animate-pulse-glow { animation: pulseGlow 3s ease-in-out infinite; }
+  .animate-shimmer { animation: shimmer 2s linear infinite; background-size: 200% 100%; }
+  .animate-spin-slow { animation: spin 8s linear infinite; }
+  .equalizer-bar { animation: equalize 0.8s ease-in-out infinite; }
+}
+
+@keyframes fadeUp { 0% { opacity: 0; transform: translateY(20px); } 100% { opacity: 1; transform: translateY(0); } }
+@keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-16px); } }
+@keyframes pulseGlow { 0%,100% { opacity: 0.4; } 50% { opacity: 0.85; } }
+@keyframes shimmer { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
+@keyframes equalize { 0%,100% { height: 30%; } 50% { height: 100%; } }
+@keyframes bubble-rise { 0% { transform: translateY(100vh) scale(0); opacity: 0; } 10% { opacity: .6; } 90% { opacity: .6; } 100% { transform: translateY(-10vh) scale(1); opacity: 0; } }
