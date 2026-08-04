@@ -94,3 +94,8 @@ The platform integrates with Spotify Web API for:
 ## License
 
 MIT
+
+
+## Recent Updates
+
+- **2026-08-05**: docs: Improve documentation clarity
